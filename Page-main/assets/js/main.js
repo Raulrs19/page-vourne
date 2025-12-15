@@ -1,3 +1,4 @@
+
 // STR4WRLD / VOURNE ENGINE v2.1
 // Logic: Catalog, Cart, Animations & Persistence
 
@@ -5,12 +6,12 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // --- 1. DATOS ---
     const products = [
-        { id: 1, name: "PARKA TÉCNICA V1", price: 129.00, image: "assets/images/products/parka-tecnica.jpg", category: "jackets", section: "men" },
-        { id: 2, name: "JERSEY OVERSIZE DISTRESSED", price: 59.90, image: "assets/images/products/jersey-oversize.jpg", category: "sweaters", section: "women" },
-        { id: 3, name: "JEANS FLARE BLACK", price: 59.99, image: "assets/images/products/jeans-flare.jpg", category: "pants", section: "men" },
-        { id: 4, name: "CHAQUETA MIXTA HYBRID", price: 89.00, image: "assets/images/products/chaqueta-mixta.jpg", category: "jackets", section: "women" },
-        { id: 5, name: "HOODIE NO-RULES", price: 79.00, image: "assets/images/products/sudadera-capucha.jpg", category: "sweaters", section: "men" },
-        { id: 6, name: "VESTIDO MIDI NIGHT", price: 65.00, image: "assets/images/products/vestido-midi.jpg", category: "dresses", section: "women" }
+        { id: 1, name: "PARKA TÉCNICA V1", price: 129.00, image: "../assets/images/products/parka-tecnica.jpg", category: "jackets", section: "men" },
+        { id: 2, name: "JERSEY OVERSIZE DISTRESSED", price: 59.90, image: "../assets/images/products/jersey-oversize.jpg", category: "sweaters", section: "women" },
+        { id: 3, name: "JEANS FLARE BLACK", price: 59.99, image: "../assets/images/products/jeans-flare.jpg", category: "pants", section: "men" },
+        { id: 4, name: "CHAQUETA MIXTA HYBRID", price: 89.00, image: "../assets/images/products/chaqueta-mixta.jpg", category: "jackets", section: "women" },
+        { id: 5, name: "HOODIE NO-RULES", price: 79.00, image: "../assets/images/products/sudadera-capucha.jpg", category: "sweaters", section: "men" },
+        { id: 6, name: "VESTIDO MIDI NIGHT", price: 65.00, image: "../assets/images/products/vestido-midi.jpg", category: "dresses", section: "women" }
     ];
 
     let cart = JSON.parse(localStorage.getItem('vourne_cart')) || [];
